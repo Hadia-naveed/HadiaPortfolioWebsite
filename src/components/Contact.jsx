@@ -8,7 +8,7 @@ const Contact = () => {
                 <div className='lg:w-1/2 flex justify-center items-center'><img src={Contactimg} alt="img" className='h-fill'/></div>
                 <div className="lg:w-1/2 mt-12">
                     <h1 className='text-center text-gray-200 font-bold text-4xl'>Get In Touch</h1>
-                    <form className="max-w-sm mx-auto">
+                    <form className="max-w-sm mx-auto" name='contactUS' netlify>
   {/* Name Field */}
   <label htmlFor="username" className="block mb-[3px] text-[20px] font-medium text-gray-200 dark:text-white">
     Name
