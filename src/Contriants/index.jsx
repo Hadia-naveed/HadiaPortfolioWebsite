@@ -2,6 +2,7 @@ import project1 from "../assets/Project1.png"
 import project2 from "../assets/Project2.png"
 import project3 from "../assets/Project3.png"
 import project4 from "../assets/Project4.png"
+import project5 from "../assets/Project5.png"
 
 export const projects = [
     {
@@ -30,5 +31,14 @@ export const projects = [
         tag: ["Reactjs", "TailwindCss"],
         webUrl: "https://foodie66.netlify.app/",
         githubUrl: "https://github.com/Hadia-naveed/Foodie-Landing-page",
+    },
+         {
+        id: 1,
+        title: "Mojito Cocktails",
+        description: "Mojito Cocktails is a modern, animated landing page built with React, Tailwind CSS, and GSAP. It features smooth scroll animations, and a fully responsive design for an engaging user experience.",
+        image: project5,
+        tag: ["Reactjs", "TailwindCss","GSAP"],
+        webUrl: "https://mojitococktailsgsap.netlify.app/",
+        githubUrl: "https://github.com/Hadia-naveed/Gsap-animated-website",
     }
 ]
