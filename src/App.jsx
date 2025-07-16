@@ -1,9 +1,10 @@
-import './App.css';
 import Projects from './components/Projects';
 import Main from './components/Main';
 import Contact from './components/Contact';
 import Footer from './components/Footer'
 import './index.css'
+import './App.css';
+
 
 function App() {
   return (
