@@ -1,8 +1,8 @@
 import project1 from "../assets/Project1.png"
 import project2 from "../assets/Project2.png"
 import project3 from "../assets/Project3.png"
-import project4 from "../assets/Project4.png"
 import project5 from "../assets/Project5.png"
+import project6 from "../assets/Project6.png"
 
 export const projects = [
     {
@@ -40,5 +40,14 @@ export const projects = [
         tag: ["Reactjs", "TailwindCss","GSAP"],
         webUrl: "https://mojitococktailsgsap.netlify.app/",
         githubUrl: "https://github.com/Hadia-naveed/Gsap-animated-website",
+    },
+    {
+        id: 1,
+        title: "ShopMe",
+        description: "ShopMe is a modern and responsive e-commerce front-end built using React.js,Tailwind CSS, and enhanced with smooth slider functionality using React Slick.",
+        image: project6,
+        tag: ["Reactjs", "TailwindCss","React-Slick"],
+        webUrl: "https://shopme45.netlify.app/",
+        githubUrl: "https://github.com/Hadia-naveed/Shop-me-Ecommerce",
     }
 ]
