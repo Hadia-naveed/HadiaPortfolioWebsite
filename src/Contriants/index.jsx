@@ -3,6 +3,7 @@ import project2 from "../assets/Project2.png"
 import project3 from "../assets/Project3.png"
 import project5 from "../assets/Project5.png"
 import project6 from "../assets/Project6.png"
+import project7 from "../assets/Project7.2.png"
 
 export const projects = [
     {
@@ -49,5 +50,14 @@ export const projects = [
         tag: ["Reactjs", "TailwindCss","React-Slick"],
         webUrl: "https://shopme45.netlify.app/",
         githubUrl: "https://github.com/Hadia-naveed/Shop-me-Ecommerce",
+    },
+    {
+        id: 1,
+        title: "CoinOrbit",
+        description: "CoinOrbit is a responsive crypto website built with React and react redux.It fetches real time data from RapidAPI.",
+        image: project7,
+        tag: ["Reactjs", "TailwindCss","React-Router","React-Redux","Chart.js"],
+        webUrl: "https://coinorbit66.netlify.app/",
+        githubUrl: "https://github.com/Hadia-naveed/coinOrbit",
     }
 ]
